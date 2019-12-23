@@ -1,52 +1,21 @@
-/* VH And VW */
+/* Calc Function */
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+}
+.navbar {
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
 }
 .banner {
-  width: 50vw;
-  height: 50vh;
   background: red;
-}
-.header {
-  width: 100vw;
-  height: 100vh;
-  background: blue;
+  min-height: calc(100vh - 100px);
 }
 
-/* Em Values */
+/* Default Browser Syles */
 
-/* html {
-  font-size: 32px;
-} */
-/* div {
-  font-size: 40px;
-}
-.relative {
-  font-size: 2rem;
-}
-.absolute {
-  font-size: 32px;
-} */
-/* Percent Values */
-
-/* .outer {
-  width: 200px;
-  height: 200px;
-  background: blue;
-}
-.inner {
-  width: 90%;
-  height: 50%;
-  background: red;
-} */
-
-/*  Pixels, Font-Size, Width, Height  */
-
-/* h1 {
+/* h2 {
+  color: red;
   font-size: 60px;
-  width: 200px;
-  height: 300px;
-  background: blue;
 } */
