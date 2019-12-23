@@ -1,10 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Playball|Roboto:400,700i&display=swap");
 /* Google fonts */
+/* Font-Style */
 body {
   font-family: "Roboto", sans-serif;
 }
-h1 {
+.main {
   font-family: "Playball", cursive;
+}
+.subheading {
+  font-style: normal;
+}
+.one {
+  font-weight: bold;
+  font-style: italic;
+}
+.two {
+  font-weight: lighter;
+  font-style: oblique;
 }
 /* Font-Family */
 /* body {
