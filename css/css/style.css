@@ -1,26 +1,52 @@
-/*  Rgba  */
-/* hex */
+/* VH And VW */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background: red;
+}
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: blue;
+}
 
-#first {
-  color: #ff0000;
-  background: #0a2463;
+/* Em Values */
+
+/* html {
+  font-size: 32px;
+} */
+/* div {
+  font-size: 40px;
 }
-#second {
-  color: #fff;
-  background: #5f5566;
+.relative {
+  font-size: 2rem;
 }
-#three {
-  color: #0000ff;
-  background: #f15025;
+.absolute {
+  font-size: 32px;
+} */
+/* Percent Values */
+
+/* .outer {
+  width: 200px;
+  height: 200px;
+  background: blue;
 }
-/* #first {
-  color: rgb(100, 123, 56);
-  background: rgba(0, 0, 0, 0.5);
-}
-#second {
-  color: rgb(45, 12, 33);
-  background: rgba(0, 0, 0, 0.25);
-}
-body {
-  background: rgba(10, 10, 200, 0.33);
+.inner {
+  width: 90%;
+  height: 50%;
+  background: red;
+} */
+
+/*  Pixels, Font-Size, Width, Height  */
+
+/* h1 {
+  font-size: 60px;
+  width: 200px;
+  height: 300px;
+  background: blue;
 } */
