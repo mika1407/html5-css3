@@ -1,27 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Playball|Roboto:400,700i&display=swap");
-/* Google fonts */
-/* Font-Style */
+/* Text-Align And Text-Indent */
+
 body {
   font-family: "Roboto", sans-serif;
+  /* text-align: right; */
 }
 .main {
   font-family: "Playball", cursive;
+  text-align: center;
 }
 .subheading {
-  font-style: normal;
 }
 .one {
-  font-weight: bold;
-  font-style: italic;
+  text-indent: 10rem;
 }
 .two {
-  font-weight: lighter;
-  font-style: oblique;
+  text-align: left;
 }
-/* Font-Family */
-/* body {
-  font-family: "Courier New", Courier, monospace;
-}
-h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-} */
