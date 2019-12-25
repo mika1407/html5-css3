@@ -1,14 +1,27 @@
-/*  Background Images Setup */
+/*  Background-Repeat */
 div {
   height: 400px;
   color: red;
 }
+
 .big-img {
   background: url("./big.jpg");
+  background-repeat: round;
+  background-size: cover;
 }
 .small-img {
+  border: 2px solid red;
   background: url("./small.jpg");
+  /* background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: space;
+  background-repeat: round; */
+  background-size: cover;
 }
 .folder-img {
   background: url("./img/folderImage.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
