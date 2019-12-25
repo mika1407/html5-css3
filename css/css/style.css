@@ -4,5 +4,11 @@ div {
   color: red;
 }
 .big-img {
-  background: url("big.jpg");
+  background: url("./big.jpg");
+}
+.small-img {
+  background: url("./small.jpg");
+}
+.folder-img {
+  background: url("./img/folderImage.jpg");
 }
