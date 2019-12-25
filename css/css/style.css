@@ -1,22 +1,39 @@
-/*  Background-Position */
+/*  Background-Attachment */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 div {
-  height: 400px;
-  color: red;
+  min-height: 100vh;
+  color: green;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .big-img {
   background: url("./big.jpg");
-  background-size: contain;
-  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
+
 .small-img {
   border: 2px solid red;
-  background: url("./small.jpg");
+  background: url("./img/folderImage.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
 }
 .folder-img {
-  background: url("./img/folderImage.jpg");
-  background-size: contain;
+  background: url("./big.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
