@@ -1,23 +1,8 @@
-/*  Display:none, Opacity, Visibility */
-
+/*  Background Images Setup */
 div {
-  background: blue;
-  margin: 10px;
-  color: white;
+  height: 400px;
+  color: red;
 }
-.none {
-  display: none;
-}
-.opacity {
-  opacity: 1;
-}
-.opacity-5 {
-  opacity: 0.5;
-}
-
-.opacity-0 {
-  opacity: 0;
-}
-.visibility {
-  visibility: hidden;
+.big-img {
+  background: url("big.jpg");
 }
