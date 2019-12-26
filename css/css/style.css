@@ -1,31 +1,42 @@
-/*  Position Fixed */
-button {
-  background: red;
-  font-size: 40px;
-  color: white;
-  position: fixed;
-  /* top: 0; */
-  bottom: 0;
-  right: 0;
+/*  Media Quries */
+
+body {
+  background: lightgreen;
 }
-div {
-  border: 3px solid red;
-  background: yellow;
-  margin-top: 40px;
-  /* position: relative; */
+.banner {
+  background: beige;
 }
-.one {
-  background: blue;
+h1 {
+  color: navy;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
 }
-.two {
-  background: green;
-  /* position: relative; */
+@media screen and (max-width: 576px) {
+  body {
+    background: darkolivegreen;
+  }
+  .banner {
+    background: yellowgreen;
+    border-radius: 20px;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
 }
 
-.special {
-  background: lightsalmon;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  right: 50%;
+@media screen and (max-width: 768px) {
+  body {
+    background: rgb(70, 104, 12);
+  }
+  .banner {
+    background: rgb(78, 140, 182);
+  }
+  h1 {
+    color: whitesmoke;
+    font-size: 60px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 }
