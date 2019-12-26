@@ -1,22 +1,24 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/*  Position Relative */
+
 div {
-  float: left;
-  height: 200px;
-  width: 33.33%;
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  position: static;
 }
 .one {
-  background: red;
+  background: blue;
+  position: relative;
+  /* top: 50px; */
+  /* left: 20rem; */
+  right: 50%;
+  bottom: 50px;
 }
 .two {
-  background: blue;
-}
-.three {
   background: green;
 }
-h1 {
-  clear: both;
+
+.special {
+  background: lightsalmon;
+  font-size: 20px;
 }
