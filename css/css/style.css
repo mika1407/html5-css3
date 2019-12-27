@@ -1,13 +1,14 @@
-/* :Hover Pseudo-Class Selector */
+/* Link Pseudo-Class Selectors */
 
-p:hover {
-  color: red;
-  /* font-size: 60px; */
+a:link {
+  color: aqua;
 }
-.header:hover {
-  background: blue;
-  color: white;
+a:visited {
+  color: red;
 }
 a:hover {
-  text-decoration: none;
+  color: blue;
+}
+a:active {
+  color: green;
 }
