@@ -1,40 +1,35 @@
-/* Animation */
+/* Animation-Fill-Mode */
 div {
   width: 200px;
   height: 100px;
   color: white;
   margin: 10px;
 }
-.transition {
-  background: red;
-  transition: all 2s linear;
-}
-.transition:hover {
-  background: yellow;
-  transform: translateX(100px);
-}
+
 .animation {
   background: blue;
-  /* animation-name: move;
-  animation-duration: 10s;
-  animation-iteration-count: 2; */
-  animation: move 5s infinite;
+  animation: move 6s 3;
+  animation-fill-mode: forwards;
 }
 
 @keyframes move {
   0% {
-    transform: translateX(20px);
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(200px);
+    opacity: 0.25;
   }
   50% {
-    transform: translateX(100px);
-    background: red;
+    transform: translateX(400px);
+    opacity: 1;
   }
   75% {
-    transform: translateX(-200px);
-    background: yellow;
+    transform: translateX(200px);
+    opacity: 0.75;
   }
   100% {
-    transform: translateX(20px);
-    background: green;
+    transform: translateX(0px);
+    opacity: 0.5;
   }
 }
