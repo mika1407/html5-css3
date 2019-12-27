@@ -1,23 +1,29 @@
 /* Transform,Transition,And Animations
-    Transition Delay */
+    Transition-Timing Function */
 div {
-  width: 150px;
-  height: 150px;
-  display: inline-block;
-}
-
-.one {
-  background: red;
-}
-.two {
-  background: green;
-}
-.three {
+  width: 100px;
+  height: 100px;
   background: blue;
-  /* transition: background 3s 2s, border-radius 5s 1s; */
-  transition: all 4s 5s;
+  color: white;
+  margin: 15px;
+  transition: all 1s;
 }
-.three:hover {
-  border-radius: 50%;
-  background: grey;
+div:hover {
+  transform: translateX(100px);
+}
+.ease {
+  /* transition: all 2s ease; */
+  transition-timing-function: ease;
+}
+.linear {
+  transition-timing-function: linear;
+}
+.easy-in {
+  transition-timing-function: linear;
+}
+.ease-out {
+  transition-timing-function: linear;
+}
+.ease-in-out {
+  transition-timing-function: linear;
 }
