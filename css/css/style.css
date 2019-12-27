@@ -1,17 +1,14 @@
-/* Basic Selectors */
-* {
+/* Descendant Child Selectors */
+
+div h1 {
   color: red;
 }
-#heading {
-  font-size: 40px;
-  text-transform: uppercase;
+div > h1 {
   color: blue;
 }
-.heading {
-  font-size: 20px;
-  text-transform: capitalize;
+.header h1 {
   color: green;
 }
-p {
-  letter-spacing: 20px;
+.header > h1 {
+  color: purple;
 }
