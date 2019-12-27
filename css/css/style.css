@@ -1,5 +1,5 @@
 /* Transform,Transition,And Animations
-    Transform:rotate() */
+    Transform:skew() */
 div {
   width: 150px;
   height: 150px;
@@ -7,14 +7,13 @@ div {
 }
 .one {
   background: red;
-  transform: rotate(45deg);
+  transform: skewX(45deg);
 }
 .two {
   background: green;
-  transform: rotateZ(45deg);
+  transform: skewy(-20deg);
 }
 .three {
   background: blue;
-  /* transform: rotateX(89deg); */
-  transform: rotateY(60deg);
+  transform: skew(40deg, -10deg);
 }
