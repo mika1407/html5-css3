@@ -1,5 +1,5 @@
 /* Transform,Transition,And Animations
-    Transform:scale() */
+    Transform:rotate() */
 div {
   width: 150px;
   height: 150px;
@@ -7,13 +7,14 @@ div {
 }
 .one {
   background: red;
-  transform: scalex(0.5);
+  transform: rotate(45deg);
 }
 .two {
   background: green;
-  transform: scaleY(0.5);
+  transform: rotateZ(45deg);
 }
 .three {
   background: blue;
-  transform: scale(0.5, 0.5);
+  /* transform: rotateX(89deg); */
+  transform: rotateY(60deg);
 }
