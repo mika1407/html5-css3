@@ -1,13 +1,11 @@
 /* Transform,Transition,And Animations
-    Transition Property */
+    Transition Delay */
 div {
   width: 150px;
   height: 150px;
   display: inline-block;
 }
-div:hover {
-  background: rosybrown;
-}
+
 .one {
   background: red;
 }
@@ -16,9 +14,10 @@ div:hover {
 }
 .three {
   background: blue;
-  transition-property: background, border-radius;
-  transition-duration: 4s, 2s;
+  /* transition: background 3s 2s, border-radius 5s 1s; */
+  transition: all 4s 5s;
 }
 .three:hover {
   border-radius: 50%;
+  background: grey;
 }
