@@ -1,8 +1,13 @@
-/* First Line And First Letter */
+/* :Hover Pseudo-Class Selector */
 
-p::first-line {
-  font-weight: bold;
+p:hover {
+  color: red;
+  /* font-size: 60px; */
 }
-p::first-letter {
-  font-size: 3rem;
+.header:hover {
+  background: blue;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
 }
