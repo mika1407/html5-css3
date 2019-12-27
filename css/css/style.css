@@ -1,14 +1,8 @@
-/* Descendant Child Selectors */
+/* First Line And First Letter */
 
-div h1 {
-  color: red;
+p::first-line {
+  font-weight: bold;
 }
-div > h1 {
-  color: blue;
-}
-.header h1 {
-  color: green;
-}
-.header > h1 {
-  color: purple;
+p::first-letter {
+  font-size: 3rem;
 }
