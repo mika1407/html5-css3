@@ -1,15 +1,20 @@
-/* :root Preudo-Class Selectors */
-:root {
-  /* background: red; */
-  font-size: 150%;
+/* Transform,Transition,And Animations
+    Transform:transition() */
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
 }
-/* 1rem === 16px */
-h1 {
-  font-size: 3rem;
+.one {
+  background: red;
+  transform: translateX(50%);
 }
-.absolute {
-  font-size: 24px;
+.two {
+  background: green;
+  transform: translateX(75px);
 }
-.responsive {
-  font-size: 1.5rem;
+.three {
+  background: blue;
+  /* transform: translateY(75px); */
+  transform: translate(120px, 130px);
 }
