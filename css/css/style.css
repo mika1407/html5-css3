@@ -1,19 +1,24 @@
 /* Transform,Transition,And Animations
-    Transform:skew() */
+    Transition Property */
 div {
   width: 150px;
   height: 150px;
   display: inline-block;
 }
+div:hover {
+  background: rosybrown;
+}
 .one {
   background: red;
-  transform: skewX(45deg);
 }
 .two {
   background: green;
-  transform: skewy(-20deg);
 }
 .three {
   background: blue;
-  transform: skew(40deg, -10deg);
+  transition-property: background, border-radius;
+  transition-duration: 4s, 2s;
+}
+.three:hover {
+  border-radius: 50%;
 }
