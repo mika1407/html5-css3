@@ -1,35 +1,15 @@
-/* Animation-Fill-Mode */
-div {
+/* Text-Shadow Box-Shadow */
+
+h1 {
+  text-shadow: 1px 1px 4px red;
+}
+.box {
   width: 200px;
   height: 100px;
-  color: white;
-  margin: 10px;
-}
-
-.animation {
   background: blue;
-  animation: move 6s 3;
-  animation-fill-mode: forwards;
+  margin: 20px;
+  transition: all 0.5s linear;
 }
-
-@keyframes move {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    transform: translateX(200px);
-    opacity: 0.25;
-  }
-  50% {
-    transform: translateX(400px);
-    opacity: 1;
-  }
-  75% {
-    transform: translateX(200px);
-    opacity: 0.75;
-  }
-  100% {
-    transform: translateX(0px);
-    opacity: 0.5;
-  }
+.box:hover {
+  box-shadow: 3px 5px 5px green;
 }
